@@ -1,0 +1,139 @@
+﻿body {
+    font-family: sans-serif;
+   font-size: 16px;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: 32px;
+}
+
+h2 {
+    font-family: sans-serif;
+    font-size: 24px;
+}
+
+h3 {
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.heading{
+    text-align: center;
+    display: inline;
+    margin-right: 10px;
+}
+
+.rep
+{
+    display:inline-block;
+    width: 40%;
+    padding: 10px;
+}
+
+.inrep {
+    padding: 10px;
+    text-align: center;
+}
+
+image {
+    height: 250px;
+    width: 250px;
+}
+
+.Cycles {position: absolute;
+        top: 15%;
+        width: 40%;
+}
+
+.Cycles.btn {
+    top: 10%;
+}
+
+.Clothing {position: absolute;
+            top: 60%;
+            width: 40%;
+}
+
+.Clothing.btn {
+    top: 55%;
+}
+
+.Components{position: absolute;
+            top: 15%;
+            left:50%;
+            width: 40%;
+}
+
+.Components.btn {
+    top: 10%;
+}
+
+.Accessories{position: absolute;
+            top: 60%;
+            left:50%;
+            width: 40%;
+
+}
+
+.Accessories.btn {
+    top: 55%;
+}
+
+.firstIm {
+    z-index: 1;
+}
+
+.secondIm {
+    z-index: -1;
+}
+
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+    /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+    .active, .accordion:hover {
+        background-color: #ccc;
+    }
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: visible;
+}
+
+/* set grid view width on item page*/
+
+th.item, td.item {
+    width: 30%;
+    text-align: center;
+    border: none;
+}
+
+table.item {
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* style button*/
+.wrapper{
+    text-align: center
+}
+
+.btn {
+    font-family: sans-serif;
+    font-size: 18px;
+}
